@@ -1,0 +1,46 @@
+*{
+    margin: 0;padding: 0;
+}
+#main{
+    background-color: aqua;
+}
+#box{
+    width: 300px;
+    height: 250px;
+    float: left;
+    margin: auto;
+    margin: 50px;
+    position: relative;
+    left: 200px;
+    background-color: black;
+    cursor: pointer;
+}
+#box1{
+    height: 500px;
+    width: 800px;
+    background-color: black;
+    background-size: cover;
+    position: relative;
+    top: 450px;
+    left: 600px;
+} 
+.i{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+.left{
+    font-size: 100px;
+    position: absolute;
+    top: 130px;
+    left: 100px;
+    cursor: pointer;
+}
+
+.right{
+    font-size: 100px;
+    position: absolute;
+    top: 130px;
+    right: 170px;
+    cursor: pointer;
+}
